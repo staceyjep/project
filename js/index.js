@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const baseUrl = "http://localhost:3000/characters"; 
+    const baseUrl = "http://localhost:3005/tickets"; 
 
     const characterBar = document.getElementById("character-bar");
     const characterName = document.getElementById("name");
