@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Safari Rally Booking</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <h1>Safari Rally Booking</h1>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Rally Booking</h1>
 
     <div id="rally-list"></div>
 
     <div id="booking-form">
-        <h2>Book a Rally Event</h2>
-        <label for="rally-select">Select Rally Event:</label>
-        <select id="rally-select"></select><br><br>
+      <h2>Book a Rally Event</h2>
+      <label for="rally-select">Select Rally Event:</label>
+      <select id="rally-select"></select
+      ><br /><br />
 
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name"><br><br>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
 
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email"><br><br>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
 
-        <label for="tickets">Number of Tickets:</label>
-        <input type="number" id="tickets" name="tickets" min="1" value="1"><br><br>
+      <label for="tickets">Number of Tickets:</label>
+      <input
+        type="number"
+        id="tickets"
+        name="tickets"
+        min="1"
+        value="1"
+      /><br /><br />
 
-        <button id="book-button">Book Now</button>
-        <button id="add-rally-button">Add Rally</button>
-        <button id="update-rally-button">Update Rally</button>
-        <button id="delete-rally-button">Delete Rally</button>
+      <button id="book-button">Book Now</button>
+      <button id="add-rally-button">Add Rally</button>
+      <button id="update-rally-button">Update Rally</button>
+      <button id="delete-rally-button">Delete Rally</button>
     </div>
     <div>
-        <ul id="ticket-list"></ul>
+      <ul id="ticket-list"></ul>
     </div>
     <div>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRynYKMp27AvQWr3EGTiR5b_qnmJZ4bYRw6Cg&s" alt="safari trally car">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRynYKMp27AvQWr3EGTiR5b_qnmJZ4bYRw6Cg&s"
+        alt="safari rally car"
+      />
     </div>
 
     <script src="js/index.js"></script>
-</body>
+  </body>
 </html>
