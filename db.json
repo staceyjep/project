@@ -1,4 +1,32 @@
 {
-    "tickets":[]
-    
+  "events": [
+    {
+      "id": "c9dd"
+    },
+    {
+      "id": "92b4",
+      "name": "stacey",
+      "date": "2025-03-27",
+      "location": "Kenya"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "51dc"
+    },
+    {
+      "id": "7634",
+      "rallyId": "92b4",
+      "name": "Mlimani",
+      "email": "cherukip.adrian@gmail.com",
+      "tickets": 1
+    },
+    {
+      "id": "bef2",
+      "rallyId": "92b4",
+      "name": "srf",
+      "email": "cherukip.adrian@gmail.com",
+      "tickets": 7
+    }
+  ]
 }
